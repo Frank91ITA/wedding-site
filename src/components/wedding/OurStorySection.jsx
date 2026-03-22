@@ -87,7 +87,7 @@ export default function OurStorySection() {
               </div>
 
               {/* Center dot */}
-              <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-primary/10 border-2 border-primary items-center justify-center z-10">
+              <div className="hidden md:flex absolute left-1/2 top-8 -translate-x-1/2 w-10 h-10 rounded-full bg-primary/10 border-2 border-primary items-center justify-center z-10">
                 <Heart className="w-4 h-4 text-primary fill-primary" />
               </div>
 
