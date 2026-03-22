@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Heart, ChevronDown } from "lucide-react";
 import hero from "../../../images/hero.png";
 
-const WEDDING_DATE = new Date("2025-08-29T16:00:00");
+const WEDDING_DATE = new Date("2026-08-29T16:00:00");
 
 function useCountdown(targetDate) {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(targetDate));
