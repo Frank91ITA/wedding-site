@@ -5,7 +5,10 @@ import incontro from "../../../images/incontro.png";
 import malta from "../../../images/malta.png";
 import pavia from "../../../images/pavia.png";
 import anelli from "../../../images/anelli.png";
-
+import Foto1 from "../../../images/Foto1.jpeg";
+import Foto2 from "../../../images/Foto2.jpeg";
+import Foto3 from "../../../images/Foto3.jpeg";
+import Foto4 from "../../../images/Foto4.jpeg";
 
 
 
@@ -15,34 +18,34 @@ const storyEvents = [
     title: "Il Primo Incontro",
     description: "Una sera d’estate sulle rive del Ticino. Tra una chiacchiera e una passeggiata lungo il fiume è iniziata, quasi senza accorgercene, la nostra avventura insieme.",
     //image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=80",
-    image: incontro,
+    image: Foto1,
   },
   {
     year: "Inverno 2024",
     title: "Il Primo Viaggio",
     description: "Il primo viaggio insieme: Malta. Tra città di pietra chiara, mare e lunghe camminate, abbiamo scoperto quanto fosse naturale esplorare il mondo fianco a fianco.",
     //image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&q=80",
-    image: malta,
+    image: Foto2,
   },
   {
     year: "Autunno 2024",
     title: "Andare a Vivere Insieme",
     description: "Abbiamo iniziato a vivere insieme. Una nuova tappa del viaggio, fatta di quotidianità, progetti e nuove avventure.",
     //image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&q=80",
-    image: pavia,
+    image: Foto3,
   },
   {
     year: "Primavera 2025",
     title: "La Proposta",
-    description: "Durante una passeggiata tra le colline, con il sole che scendeva all’orizzonte, è arrivata la domanda più importante. La risposta è stata semplice: sì, continuiamo questo viaggio insieme",
+    description: "Durante una passeggiata tra le colline, con il sole che scendeva all’orizzonte, è arrivata la domanda più importante. La risposta è stata semplice: sì, continuiamo questo viaggio insieme.",
     //image: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&q=80",
-    image: anelli,
+    image: Foto4,
   },
 ];
 
 export default function OurStorySection() {
   return (
-    <section id="our-story" className="py-24 md:py-32 bg-background">
+    <section id="our-story" className="pt-12 md:pt-18 pb-12 md:pb-16 bg-background">
       <div className="max-w-6xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

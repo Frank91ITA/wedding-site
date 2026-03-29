@@ -5,14 +5,14 @@ export default function RSVPSection() {
   const googleFormUrl = "https://forms.gle/rh7FL9EJrDwhqu3q8";
 
   return (
-    <section id="rsvp" className="py-24 md:py-32 bg-background">
+    <section id="rsvp" className="pt-8 md:pt-12 pb-24 md:pb-32 bg-[#f5f3ef]">
       <div className="max-w-2xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center bg-card rounded-xl p-10 md:p-12 shadow-sm border border-border"
+          className="text-center bg-background rounded-xl p-10 md:p-12 shadow-sm border border-border"
         >
           <p className="font-body text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4">
             Vi aspettiamo

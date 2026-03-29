@@ -16,8 +16,8 @@ export default function Home() {
       <OurStorySection />
       <EventDetailsSection />
       {/*<GallerySection />*/}
-      <RSVPSection />
       <InfoSection />
+      <RSVPSection />
       <FooterSection />
     </div>
   );

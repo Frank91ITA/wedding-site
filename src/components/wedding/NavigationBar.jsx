@@ -44,7 +44,7 @@ export default function NavigationBar() {
               scrolled ? "text-foreground" : "text-white"
             }`}
           >
-            F <Heart className="w-3 h-3 inline -mt-1 mx-1" /> G
+            G <Heart className="w-3 h-3 inline -mt-1 mx-1" /> F
           </button>
 
           {/* Desktop nav */}

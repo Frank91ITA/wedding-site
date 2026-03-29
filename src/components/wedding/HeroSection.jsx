@@ -108,6 +108,14 @@ export default function HeroSection() {
             </div>
           ))}
         </motion.div>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 1 }}
+          className="font-heading text-xl md:text-2m italic mt-8 text-white/90"
+        >
+          "And he beheld the White Tree in flower, and the evening star above it, and he knew that the shadow was departed."
+        </motion.p>
       </div>
 
       {/* Scroll indicator */}
