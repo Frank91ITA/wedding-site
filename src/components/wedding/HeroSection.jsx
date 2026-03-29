@@ -114,7 +114,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 1 }}
           className="font-heading text-xl md:text-2m italic mt-8 text-white/90"
         >
-          "And he beheld the White Tree in flower, and the evening star above it, and he knew that the shadow was departed."
+          "And he beheld the White Tree in flower, and the Evening Star above it, and he knew that the shadow was departed."
         </motion.p>
       </div>
 
